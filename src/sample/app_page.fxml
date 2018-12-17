@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="app_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="22.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Applications">
+         <font>
+            <Font name="Arial Bold" size="48.0" />
+         </font>
+      </Text>
+      <TilePane alignment="CENTER" layoutX="42.0" layoutY="106.0" prefHeight="520.0" prefWidth="930.0">
+         <children>
+            <JFXButton alignment="CENTER" contentDisplay="TOP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: CDD6D5;" text="Travel" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/travel_pic.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+               <TilePane.margin>
+                  <Insets right="5.0" />
+               </TilePane.margin>
+            </JFXButton>
+            <JFXButton alignment="CENTER" contentDisplay="TOP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: CDD6D5;" text="Audio Books" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/audio_books_pic.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+               <TilePane.margin>
+                  <Insets left="5.0" right="5.0" />
+               </TilePane.margin>
+            </JFXButton>
+            <JFXButton alignment="CENTER" contentDisplay="TOP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: CDD6D5;" text="Relax" textAlignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/relax_pic.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+               <TilePane.margin>
+                  <Insets left="5.0" right="5.0" />
+               </TilePane.margin>
+            </JFXButton>
+            <JFXButton alignment="CENTER" contentDisplay="TOP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: CDD6D5;" text="News">
+               <graphic>
+                  <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/news_pic.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+               <TilePane.margin>
+                  <Insets left="5.0" right="5.0" />
+               </TilePane.margin>
+            </JFXButton>
+            <JFXButton alignment="CENTER" contentDisplay="TOP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: CDD6D5;" text="Games">
+               <graphic>
+                  <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/games_pic.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+               <TilePane.margin>
+                  <Insets top="10.0" />
+               </TilePane.margin>
+            </JFXButton>
+         </children>
+      </TilePane>
+   </children>
+</AnchorPane>

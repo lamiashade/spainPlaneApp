@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="774.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.topics_culture_Controller">
+   <children>
+      <JFXScrollPane  fx:id="scroll_pane" alignment="TOP_LEFT" layoutY="70.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="774.0">
+         <children>
+            <JFXListView fx:id="topic_list_view" prefHeight="560.0" prefWidth="774.0" />
+         </children>
+      </JFXScrollPane>
+      <Text fx:id="topic_name" layoutX="20.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title" textAlignment="CENTER" textOrigin="TOP">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

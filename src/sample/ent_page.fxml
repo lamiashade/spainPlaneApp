@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="ent_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Ent_Controller">
+   <children>
+      <Text layoutX="14.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Entertainment">
+         <font>
+            <Font name="Arial Bold" size="48.0" />
+         </font>
+      </Text>
+      <TilePane layoutX="32.0" layoutY="96.0" orientation="VERTICAL" prefHeight="520.0" prefWidth="930.0">
+         <children>
+            <JFXButton alignment="CENTER" contentDisplay="GRAPHIC_ONLY" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#got_btn" prefHeight="200.0" prefWidth="300.0" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="got_pic" fitHeight="200.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <image>
+                        <Image url="@resources/got_photo.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <TilePane.margin>
+                  <Insets bottom="5.0" right="5.0" />
+               </TilePane.margin>
+            </JFXButton>
+            <JFXButton alignment="CENTER" contentDisplay="TOP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#tv_btn" prefHeight="200.0" prefWidth="300.0" style="-fx-background-color: CDD6D5;" text="tv shows">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="tv_pic" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="0.0" radius="1.7825000000000002" spread="0.84" width="9.13" />
+                     </effect>
+                     <image>
+                        <Image url="@resources/tv_shows.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <TilePane.margin>
+                  <Insets right="5.0" top="5.0" />
+               </TilePane.margin>
+            </JFXButton>
+            <JFXButton alignment="CENTER" contentDisplay="TOP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#movies_btn" prefHeight="200.0" prefWidth="300.0" style="-fx-background-color: CDD6D5;" text="Movies">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="all_movies_pic" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <effect>
+                        <DropShadow blurType="ONE_PASS_BOX" height="6.17" radius="1.0425" spread="0.97" width="0.0" />
+                     </effect>
+                     <image>
+                        <Image url="@resources/all_movies.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <TilePane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" />
+               </TilePane.margin>
+            </JFXButton>
+            <JFXButton alignment="CENTER" contentDisplay="GRAPHIC_ONLY" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#lotr_btn" prefHeight="200.0" prefWidth="300.0" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="lotr_pic" fitHeight="200.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <image>
+                        <Image url="@resources/lotr_photo.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <TilePane.margin>
+                  <Insets left="5.0" right="5.0" top="5.0" />
+               </TilePane.margin>
+            </JFXButton>
+            <JFXButton alignment="CENTER" contentDisplay="GRAPHIC_ONLY" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#moon_light_btn" prefHeight="200.0" prefWidth="300.0" text="Moon light" textFill="WHITE">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fx:id="moonl_light_pic" fitHeight="200.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/moon_light_photo.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <TilePane.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" />
+               </TilePane.margin>
+            </JFXButton>
+            <JFXButton alignment="CENTER" contentDisplay="TOP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#classic_movie_btn" prefHeight="200.0" prefWidth="300.0" style="-fx-background-color: CDD6D5;" text="Classic Movies">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/Classic_folder.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <TilePane.margin>
+                  <Insets left="5.0" right="5.0" top="5.0" />
+               </TilePane.margin>
+            </JFXButton>
+         </children>
+      </TilePane>
+   </children>
+</AnchorPane>
