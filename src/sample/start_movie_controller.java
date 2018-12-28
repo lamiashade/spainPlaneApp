@@ -28,7 +28,7 @@ public class start_movie_controller implements Initializable {
 
         if(image_string.equals("lotr")){
 
-            javafx.scene.image.Image im = new Image(getClass().getResource("resources/lotr_photo.jpg").toExternalForm());
+            javafx.scene.image.Image im = new Image(getClass().getResource("resources/broken_embrasses.jpg").toExternalForm());
             setPicture(im);
         }
 

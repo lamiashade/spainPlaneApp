@@ -26,7 +26,7 @@ public class play_movie_Controller implements Initializable {
 
     private MediaPlayer mediaPlayer;
 
-    private static final String MEDIA_URL = "resources/lotr_vid.mp4";
+    private static final String MEDIA_URL = "resources/Broken_emb_vid.mp4";
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {

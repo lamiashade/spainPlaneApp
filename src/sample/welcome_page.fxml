@@ -67,30 +67,80 @@
                         <Image url="@resources/madrid-header.jpg" />
                      </image>
                   </ImageView>
-                  <JFXButton fx:id="home_page_eng_btn" buttonType="RAISED" contentDisplay="CENTER" layoutX="38.0" layoutY="403.0" onAction="#go_toHome_en" prefHeight="150.0" prefWidth="150.0" ripplerFill="WHITE" style="-fx-background-color: FEFFFF; -fx-background-radius: 150; -fx-border-width: 150;" text="ENGLISH">
+                  <JFXButton fx:id="home_page_eng_btn" buttonType="RAISED" contentDisplay="TOP" layoutX="38.0" layoutY="403.0" onAction="#go_toHome_en" prefHeight="150.0" prefWidth="150.0" ripplerFill="WHITE" style="-fx-background-color: FEFFFF; -fx-background-radius: 150; -fx-border-width: 150;" text="English">
                      <font>
                         <Font name="Arial Bold" size="24.0" />
                      </font>
+                     <graphic>
+                        <ImageView fitHeight="60.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@resources/us_flag.png" />
+                           </image>
+                           <effect>
+                              <DropShadow blurType="ONE_PASS_BOX" color="#00000053" />
+                           </effect>
+                        </ImageView>
+                     </graphic>
                   </JFXButton>
-                  <JFXButton buttonType="RAISED" layoutX="238.0" layoutY="403.0" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: FEFFFF; -fx-background-radius: 150; -fx-border-width: 150;" text="SPANISH">
+                  <JFXButton buttonType="RAISED" contentDisplay="TOP" layoutX="238.0" layoutY="403.0" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: FEFFFF; -fx-background-radius: 150; -fx-border-width: 150;" text="Español">
                      <font>
-                        <Font name="Arial Bold" size="24.0" />
+                        <Font name="Arial Bold" size="28.0" />
                      </font>
+                     <graphic>
+                        <ImageView fitHeight="60.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@resources/spain_flag.jpg" />
+                           </image>
+                           <effect>
+                              <DropShadow blurType="ONE_PASS_BOX" color="#0000004f" />
+                           </effect>
+                        </ImageView>
+                     </graphic>
                   </JFXButton>
-                  <JFXButton buttonType="RAISED" layoutX="438.0" layoutY="403.0" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: FEFFFF; -fx-background-radius: 150; -fx-border-radius: 150;" text="FRENCH">
+                  <JFXButton buttonType="RAISED" contentDisplay="TOP" layoutX="438.0" layoutY="403.0" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: FEFFFF; -fx-background-radius: 150; -fx-border-radius: 150;" text="Français">
                      <font>
-                        <Font name="Arial Bold" size="24.0" />
+                        <Font name="Arial Bold" size="27.0" />
                      </font>
+                     <graphic>
+                        <ImageView fitHeight="60.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@resources/french_flag.png" />
+                           </image>
+                           <effect>
+                              <DropShadow blurType="ONE_PASS_BOX" color="#00000054" />
+                           </effect>
+                        </ImageView>
+                     </graphic>
                   </JFXButton>
-                  <JFXButton buttonType="RAISED" layoutX="638.0" layoutY="403.0" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: FEFFFF; -fx-background-radius: 150; -fx-border-radius: 150;" text="JAPANESE">
+                  <JFXButton buttonType="RAISED" contentDisplay="TOP" layoutX="630.0" layoutY="403.0" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: FEFFFF; -fx-background-radius: 150; -fx-border-radius: 150;" text="日本人">
                      <font>
-                        <Font name="Arial Bold" size="22.0" />
+                        <Font name="Arial Bold" size="33.0" />
                      </font>
+                     <graphic>
+                        <ImageView fitHeight="60.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@resources/japan_flag.png" />
+                           </image>
+                           <effect>
+                              <DropShadow blurType="ONE_PASS_BOX" color="#0000004f" height="12.11" radius="8.52" width="23.97" />
+                           </effect>
+                        </ImageView>
+                     </graphic>
                   </JFXButton>
-                  <JFXButton buttonType="RAISED" layoutX="838.0" layoutY="403.0" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: FEFFFF; -fx-background-radius: 150; -fx-border-radius: 150;" text="CHINESE">
+                  <JFXButton buttonType="RAISED" contentDisplay="TOP" layoutX="838.0" layoutY="403.0" prefHeight="150.0" prefWidth="150.0" style="-fx-background-color: FEFFFF; -fx-background-radius: 150; -fx-border-radius: 150;" text="中文">
                      <font>
-                        <Font name="System Bold" size="24.0" />
+                        <Font name="System Bold" size="33.0" />
                      </font>
+                     <graphic>
+                        <ImageView fitHeight="60.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@resources/china_flag.png" />
+                           </image>
+                           <effect>
+                              <DropShadow blurType="ONE_PASS_BOX" color="#00000051" />
+                           </effect>
+                        </ImageView>
+                     </graphic>
                   </JFXButton>
                   <Text fill="WHITE" layoutX="38.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WELCOME!">
                      <font>

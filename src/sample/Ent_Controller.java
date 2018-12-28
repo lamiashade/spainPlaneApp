@@ -18,18 +18,20 @@ public class Ent_Controller implements Initializable {
     @FXML public   String movie_name = null;
 
 
-    @Override
-    public void initialize(URL location, ResourceBundle resources) {
 
+    public void spain_in_a_day_btn(ActionEvent actionEvent) {
+        changeScene("start_movie_spain_in_a_day_page.fxml");
+    }
+
+    public void broken_embraces_btn(ActionEvent actionEvent) {
+        changeScene("start_movie_page.fxml");
+    }
+
+    public void espana_1936_btn(ActionEvent actionEvent) {
+        changeScene("start_movie_espana_1936_page.fxml");
     }
 
 
-    @FXML
-    void got_btn(ActionEvent event) {
-
-        changeScene("start_movie_got_page.fxml");
-
-    }
 
     @FXML
     void tv_btn(ActionEvent event) {
@@ -41,21 +43,14 @@ public class Ent_Controller implements Initializable {
 
     }
 
-    @FXML
-    void lotr_btn(ActionEvent event) {
-
-        changeScene("start_movie_page.fxml");
-
-    }
-
-    @FXML
-    void moon_light_btn(ActionEvent event) {
-        changeScene("start_movie_moonlight_page.fxml");
-
-    }
 
     @FXML
     void classic_movie_btn(ActionEvent event) {
+
+    }
+
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
 
     }
 
@@ -75,4 +70,5 @@ public class Ent_Controller implements Initializable {
         ent_pane.getChildren().setAll(scene);
 
     }
+
 }

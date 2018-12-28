@@ -19,17 +19,17 @@
       </Text>
       <TilePane layoutX="32.0" layoutY="96.0" orientation="VERTICAL" prefHeight="520.0" prefWidth="930.0">
          <children>
-            <JFXButton alignment="CENTER" contentDisplay="GRAPHIC_ONLY" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#got_btn" prefHeight="200.0" prefWidth="300.0" textFill="WHITE">
+            <JFXButton alignment="CENTER" contentDisplay="GRAPHIC_ONLY" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#spain_in_a_day_btn" prefHeight="200.0" prefWidth="300.0" textFill="WHITE">
                <font>
                   <Font name="Arial Bold" size="14.0" />
                </font>
                <graphic>
-                  <ImageView fx:id="got_pic" fitHeight="200.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="spain_in_a_day_pic" fitHeight="200.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
                      <effect>
                         <DropShadow />
                      </effect>
                      <image>
-                        <Image url="@resources/got_photo.jpg" />
+                        <Image url="@resources/spain_in_a_day.jpg" />
                      </image>
                   </ImageView>
                </graphic>
@@ -73,17 +73,17 @@
                   <Insets bottom="5.0" left="5.0" right="5.0" />
                </TilePane.margin>
             </JFXButton>
-            <JFXButton alignment="CENTER" contentDisplay="GRAPHIC_ONLY" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#lotr_btn" prefHeight="200.0" prefWidth="300.0" textFill="WHITE">
+            <JFXButton alignment="CENTER" contentDisplay="GRAPHIC_ONLY" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#broken_embraces_btn" prefHeight="200.0" prefWidth="300.0" textFill="WHITE">
                <font>
                   <Font name="Arial Bold" size="14.0" />
                </font>
                <graphic>
-                  <ImageView fx:id="lotr_pic" fitHeight="200.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="broken_embraces_pic" fitHeight="200.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
                      <effect>
                         <DropShadow />
                      </effect>
                      <image>
-                        <Image url="@resources/lotr_photo.jpg" />
+                        <Image url="@resources/broken_embrasses.jpg" />
                      </image>
                   </ImageView>
                </graphic>
@@ -91,7 +91,7 @@
                   <Insets left="5.0" right="5.0" top="5.0" />
                </TilePane.margin>
             </JFXButton>
-            <JFXButton alignment="CENTER" contentDisplay="GRAPHIC_ONLY" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#moon_light_btn" prefHeight="200.0" prefWidth="300.0" text="Moon light" textFill="WHITE">
+            <JFXButton alignment="CENTER" contentDisplay="GRAPHIC_ONLY" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#espana_1936_btn" prefHeight="200.0" prefWidth="300.0" textFill="WHITE">
                <effect>
                   <DropShadow />
                </effect>
@@ -99,9 +99,9 @@
                   <Font name="Arial Bold" size="14.0" />
                </font>
                <graphic>
-                  <ImageView fx:id="moonl_light_pic" fitHeight="200.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="espana_1936_pic" fitHeight="200.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@resources/moon_light_photo.jpeg" />
+                        <Image url="@resources/espana_1936.jpg" />
                      </image>
                   </ImageView>
                </graphic>

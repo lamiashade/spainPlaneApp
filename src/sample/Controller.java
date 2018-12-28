@@ -59,7 +59,4 @@ public class Controller implements Initializable {
         name.setText(formatDateTime + " | " + city);
     }
 
-    private void play_audio(){
-
-    }
 }
